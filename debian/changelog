@@ -1,9 +1,8 @@
-dtkcore2 (15.11~2.2.2) UNRELEASED; urgency=medium
+dtkcore2 (15.13-2.2.4) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
-  * 
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 18 Aug 2024 11:21:54 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sun, 22 Sep 2024 14:24:08 +0800
 
 dtkcore2 (15.11~2.2.1) unstable; urgency=medium
 
