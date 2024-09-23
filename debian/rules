@@ -22,13 +22,13 @@ endif
 	dh $@ --parallel
 override_dh_auto_clean:
 	dh_auto_clean
-	rm -rvf $(CURDIR)/src
+	rm -rvf $(CURDIR)/usr
 override_dh_auto_configure:
-	mkdir -p $(CURDIR)/src/usr/lib/$(DEB_HOST_MULTIARCH)/ 
+	mkdir -p $(CURDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/ 
 
-	ln -sv /usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.5 $(CURDIR)/src/usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.2 
+	ln -sv /usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.5 $(CURDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.2 
 
-	ln -sv /usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.5 $(CURDIR)/src/usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.15 
+	ln -sv /usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.5 $(CURDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.15 
     
 
 override_dh_auto_test:
