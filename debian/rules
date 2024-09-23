@@ -28,7 +28,7 @@ override_dh_auto_configure:
 
 	ln -sv /usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.5 $(CURDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.2 
 
-	ln -sv /usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.5 $(CURDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/libdtkcore.so.15 
+
     
 
 override_dh_auto_test:
