@@ -1,52 +1,7 @@
-# Deepin Tool Kit Core {#mainpage}
+# DTKCore2
 
-Deepint Tool Kit (Dtk) is the base development tool of all C++/Qt Developer work on Deepin.
+DTKCore2 is forwarded to DTKCore5. Now we compile dtk2 apps with dtkcore5
 
-You should read the [Deepin Application Specification](\ref doc/Specification) firstly.
+In this repo there are only some empty packages that redirect dtk2 to dtk5
 
-## Dependencies
-
-### Build dependencies
-
-* Qt >= 5.6
-
-## Installation
-
-### Build from source code
-
-1. Make sure you have installed all dependencies.
-
-2. Build:
-
-````
-$ mkdir build
-$ cd build
-$ qmake ..
-$ make
-````
-
-3. Install:
-
-````
-$ sudo make install
-````
-
-## Getting help
-
-Any usage issues can ask for help via
-
-* [Gitter](https://gitter.im/orgs/linuxdeepin/rooms)
-* [IRC channel](https://webchat.freenode.net/?channels=deepin)
-* [Forum](https://bbs.deepin.org)
-* [WiKi](https://wiki.deepin.org/)
-
-## Getting involved
-
-We encourage you to report issues and contribute changes
-
-* [Contribution guide for developers](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en). (English)
-* [开发者代码贡献指南](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers) (中文)
-
-## License
-
-deepin-tool-kit is licensed under [GPLv3](LICENSE).
+See DTKCore5 at https://gitee.com/GXDE-OS/dtk5core
