@@ -1,8 +1,9 @@
-dtkcore2 (15.15-2.2.6) UNRELEASED; urgency=medium
+dtkcore2 (2:2.2.8) UNRELEASED; urgency=medium
 
   * To dtk5
+  * 修改版本号以至于没那么那啥
 
- -- shenmo <shenmo@spark-app.store>  Sun, 22 Sep 2024 14:24:08 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sun, 25 May 2025 22:41:40 +0800
 
 dtkcore2 (15.13-2.2.4) UNRELEASED; urgency=medium
 
