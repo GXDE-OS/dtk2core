@@ -1,0 +1,21 @@
+# Maintainer: CharOfString <root@charofstring.cc>
+pkgname=dtkcore2-git
+pkgver=2.2.8
+pkgrel=1
+pkgdesc='DTK2 core compatibility library, backed by DTK5 core'
+arch=('any')
+url="https://github.com/GXDE-OS/dtk2core"
+license=('LGPL-3.0-or-later')
+# 本包只提供 libdtkcore.so.2 -> libdtkcore.so.5 的软链接，需要 GXDE 的 DTK5 core
+# This package only ships the libdtkcore.so.2 -> libdtkcore.so.5 symlink, so
+# it needs GXDE's DTK5 core.
+depends=('dtkcore-git')
+provides=("dtkcore2=$pkgver")
+conflicts=('dtkcore2')
+source=()
+sha512sums=()
+
+package() {
+  install -d "$pkgdir/usr/lib"
+  ln -s libdtkcore.so.5 "$pkgdir/usr/lib/libdtkcore.so.2"
+}
